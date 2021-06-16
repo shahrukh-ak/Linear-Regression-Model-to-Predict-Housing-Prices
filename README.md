@@ -48,9 +48,41 @@ Evaluated the model by checking out it's coefficients and how they can be interp
   <li>Holding all other features fixed, a 1 unit increase in Area Population is associated with an increase of \$15.15 .</li>
 </ul>
 
-
-
-
-
-
 ## Predictions from our Model
+Grab predictions off our test set and see how well it did by using different plots.
+
+![4](https://user-images.githubusercontent.com/55116845/122213257-339f7e80-cec2-11eb-9ebe-e3cdcdf7071d.png)
+
+### Residual Plot
+
+![5](https://user-images.githubusercontent.com/55116845/122213423-5e89d280-cec2-11eb-8edb-33998321eedc.png)
+
+## Regression Evaluation Metrics
+
+Here are three common evaluation metrics for regression problems:
+<br>
+Mean Absolute Error (MAE) is the mean of the absolute value of the errors:<br>
+
+![F1](https://user-images.githubusercontent.com/55116845/122213707-a9a3e580-cec2-11eb-9ded-6e6473d8b0d6.PNG)
+
+Mean Squared Error (MSE) is the mean of the squared errors:
+
+![F2](https://user-images.githubusercontent.com/55116845/122213936-ee2f8100-cec2-11eb-8e63-abfd5e0b2d7d.PNG)
+
+Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors:
+
+![F3](https://user-images.githubusercontent.com/55116845/122214022-0dc6a980-cec3-11eb-937a-8d8c1ab5e4e2.PNG)
+
+Comparing these metrics:
+<br>
+<ul>
+  <li>MAE is the easiest to understand, because it's the average error.</li>
+  <li>MSE is more popular than MAE, because MSE "punishes" larger errors, which tends to be useful in the real world.</li>
+  <li>RMSE is even more popular than MSE, because RMSE is interpretable in the "y" units.</li>
+</ul>
+All of these are loss functions, because we want to minimize them.
+
+
+
+
+
