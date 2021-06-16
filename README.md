@@ -8,6 +8,9 @@ She has asked you if you could help her out with your new data science skills. Y
 <br><br>
 She gives you some information about a bunch of houses in regions of the United States,it is all in the data set: USA_Housing.csv.
 <br><br>
+
+## About Data:
+<br>
 The data contains the following columns:
 <br><br>
 'Avg. Area Income': Avg. Income of residents of the city house is located in.<br>
